@@ -1,0 +1,156 @@
+
+ :root {
+    
+    --yellow: #ffc107;
+
+  }
+  
+  html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+
+  }
+
+  
+  body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555555;
+    text-align: left;
+    background-color: #FFFBF2;
+
+    
+  }
+  .section-title{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    background: url(/pic/coffee-beans-top-view-white-background-space-text_176474-5028.webp) no-repeat;
+    background-size: cover;
+
+  }
+
+
+  
+h1
+ {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: antiquewhite;
+
+  }
+  h4{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+ 
+ 
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  
+  
+  .col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+  }
+  
+  
+  
+  .col-auto {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+  }
+  
+ 
+  
+ 
+  
+  
+  @media (min-width: 576px) {
+   .col-sm-5 {
+      flex: 0 0 41.66667%;
+      max-width: 41.66667%;
+    }
+    
+    .col-sm-7 {
+      flex: 0 0 58.33333%;
+      max-width: 58.33333%;
+    }
+    
+  }
+  
+  @media (min-width: 768px) {
+
+    .row-cols-md-6 > * {
+      flex: 0 0 16.66667%;
+      max-width: 16.66667%;
+    }
+    
+  
+    .row-cols-lg-6 > * {
+      flex: 0 0 16.66667%;
+      max-width: 16.66667%;
+    }
+    
+    .col-lg-5 {
+      flex: 0 0 41.66667%;
+      max-width: 41.66667%;
+    }
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+   
+    
+   
+  }
+  
+  .section-title {
+    position: relative;
+    padding: 115px 0 35px 0;
+    text-align: center;
+
+  }
+  
+  
+  .service-icon {
+    margin-right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 45px;
+    color: #33211D;
+    background: #DA9F5B;
+  }
+  
+
